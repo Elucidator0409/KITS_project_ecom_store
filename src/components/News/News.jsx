@@ -40,7 +40,10 @@ export const News = () => {
         </div>
         <div className='img__category'>
           <div className='main__img'>
-            <img src={cat1} alt="cate" width="648px" height="648px"></img>
+            <div className='text-ori'>
+              <h3>Explore new and popular styles</h3>
+            </div>
+            <img className='pos-relative' src={cat1} alt="cate" width="648px" height="648px"></img>
           </div>
           <div className='sub__img'>
             <div className='item'>

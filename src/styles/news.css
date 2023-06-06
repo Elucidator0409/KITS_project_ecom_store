@@ -5,10 +5,23 @@
 
 .main__img{
     margin-top: 24px;
-    margin-left: 52px;
+    
 }
 .img__category{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.img__category .main__img .pos-relative{
+    position: relative;
+}
+.img__category .main__img .text-ori{
+    position: absolute;
+    left:-0.2px;
+    padding: 8px 0;
+    height: 100%;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    margin-left: 142px;
+
 }

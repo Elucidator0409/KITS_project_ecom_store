@@ -1,0 +1,30 @@
+
+.fil{
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filter-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fil-button{
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #7A797D;
+    border: none;
+    border-radius: 30px;
+    padding: 5px 15px;
+}
+
+.fil-button:hover{
+    
+    color: #000000;
+}
+
