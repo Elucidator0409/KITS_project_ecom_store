@@ -148,3 +148,35 @@
     text-align: center;
     color: #FF6F61;
 }
+
+
+
+
+
+
+
+
+
+
+@media(max-width:390px){
+    .hero__section{
+        max-width: 250px;
+        width: 100%;
+        margin-top: 70px;
+    }
+    .hero__section .hero__content h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    .hero__section .hero__img img{
+        width: 200px;
+        height: 200px;
+        
+        border-radius: 0px;
+    }
+
+    .hero__section .hero__img .inner{
+        border: none;
+    }
+}
+    

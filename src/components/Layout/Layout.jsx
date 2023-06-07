@@ -11,6 +11,13 @@ const LayoutStyled = styled.div`
   background-color: #F0F0F0;
   max-width:1920px;
   margin: auto;
+
+  @media (max-width:390px){
+    flex-direction:column;
+    max-width:150px;
+    width:100%;
+    margin: 0px 0px;
+  }
 `;
 const ContentStyled = styled.div`
 

@@ -1,6 +1,6 @@
-import React from 'react'
+import React,{useRef,useEffect} from 'react'
 import { BiSearchAlt,BiUser,BiShoppingBag } from 'react-icons/bi'
-
+import './navbar.css'
 import styled from "styled-components";
 const Nav = styled.div`
   display:flex;
@@ -40,8 +40,26 @@ const TitleStyled = styled.div`
   
 `
 export const Navbar = () => {
+  
+  // const navRef = useRef(null)
+
+  // const stickyNavbarFunc = () => {
+  //   window.addEventListener('scroll', () =>{
+  //     if(document.body.scrollTop > 80 || document.documentElement.scrollTop>80){
+  //       navRef.current.classList.add('sticky__navbar')
+  //     } else {
+  //       navRef.current.classList.add('sticky__navbar')
+  //     }
+  //   })
+  // }
+
+  // useEffect(()=>{
+  //   stickyNavbarFunc();
+
+  //   return () => window.removeEventListener('scroll', stickyNavbarFunc)
+  // })
   return (
-    <Nav>
+    <Nav >
       <div className='inputBox'>
            
             <i><BiSearchAlt/></i>
