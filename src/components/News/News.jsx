@@ -32,17 +32,23 @@ export const News = () => {
   return (
     <NewsStyled>
         <div className='logo'>
-          <span><img src={brand1} alt='brand' width="200px" height="70px" ></img></span>
-          <span><img src={brand2} alt='brand' width="200px" height="70px" ></img></span>
-          <span><img src={brand3} alt='brand' width="200px" height="70px" ></img></span>
-          <span><img src={brand4} alt='brand' width="200px" height="70px" ></img></span>
-          <span><img src={brand5} alt='brand' width="200px" height="70px" ></img></span>
+          <div><img src={brand1} alt='brand' width="200px" height="70px" ></img></div>
+          <div><img src={brand2} alt='brand' width="200px" height="70px" ></img></div>
+          <div><img src={brand3} alt='brand' width="200px" height="70px" ></img></div>
+          <div><img src={brand4} alt='brand' width="200px" height="70px" ></img></div>
+          <div><img src={brand5} alt='brand' width="200px" height="70px" ></img></div>
+
+          {/* <img src={brand1} alt='brand' width="200px" height="70px" ></img>
+          <img src={brand2} alt='brand' width="200px" height="70px" ></img>
+          <img src={brand3} alt='brand' width="200px" height="70px" ></img>
+          <img src={brand4} alt='brand' width="200px" height="70px" ></img>
+          <img src={brand5} alt='brand' width="200px" height="70px" ></img> */}
         </div>
         <div className='img__category'>
           <div className='main__img'>
-            <div className='text-ori'>
-              <h3>Explore new and popular styles</h3>
-            </div>
+            
+            <h5>Explore new and popular styles</h5>
+            
             <img className='pos-relative' src={cat1} alt="cate" width="648px" height="648px"></img>
           </div>
           <div className='sub__img'>

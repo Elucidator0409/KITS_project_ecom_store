@@ -97,8 +97,8 @@ function Home() {
             <h2 className='section__title'>Best Sellers</h2>
           </Col>
           
-          <TrendingProductList />
         </Row>
+        <TrendingProductList />
       </Container>
     </section>
 
