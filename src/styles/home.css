@@ -158,25 +158,35 @@
 
 
 
-@media(max-width:390px){
+@media only screen and (max-width:768px){
     .hero__section{
-        max-width: 250px;
-        width: 100%;
-        margin-top: 70px;
+        
     }
-    .hero__section .hero__content h2{
-        font-size: 30px;
-        text-align: center;
+    .hero__section .hero__content {
+        position: fixed;
+        left: 0 !important;
     }
     .hero__section .hero__img img{
-        width: 200px;
-        height: 200px;
         
-        border-radius: 0px;
+        width: 340px;
+        height: 340px;
+        border-top-left-radius: 60px ;
+    border-bottom-right-radius: 60px ;
+    top: -10px;
+    left: -10px;
+    z-index: 2;
+        
+    margin: 200px 0px;
+    
+    
+    
+        
     }
 
     .hero__section .hero__img .inner{
         border: none;
     }
+
+    
 }
     

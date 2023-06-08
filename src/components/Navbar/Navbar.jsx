@@ -59,12 +59,12 @@ export const Navbar = () => {
   //   return () => window.removeEventListener('scroll', stickyNavbarFunc)
   // })
   return (
-    <Nav >
+    <Nav className='navigation'>
       <div className='inputBox'>
            
             <i><BiSearchAlt/></i>
       </div>
-      <TitleStyled>Lisa Store</TitleStyled>
+      <TitleStyled className='title'>Lisa Store</TitleStyled>
       <div className="feature">
             <i className='profileIcon'>
                 <BiUser /><span>Account</span>    

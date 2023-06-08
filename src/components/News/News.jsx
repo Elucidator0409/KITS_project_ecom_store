@@ -25,18 +25,22 @@ const NewsStyled = styled.div`
     margin-left:220px;
     display: flex;
     flex-wrap: wrap;
-    
+    @media only screen and (max-width:768px){
+      width:100%;
+      margin-left:0;
+      
+    }
     
 `
 export const News = () => {
   return (
     <NewsStyled>
         <div className='logo'>
-          <div><img src={brand1} alt='brand' width="200px" height="70px" ></img></div>
-          <div><img src={brand2} alt='brand' width="200px" height="70px" ></img></div>
-          <div><img src={brand3} alt='brand' width="200px" height="70px" ></img></div>
-          <div><img src={brand4} alt='brand' width="200px" height="70px" ></img></div>
-          <div><img src={brand5} alt='brand' width="200px" height="70px" ></img></div>
+          <div className='logo-com'><img src={brand1} alt='brand' width="200px" height="70px" ></img></div>
+          <div className='logo-com'><img src={brand2} alt='brand' width="200px" height="70px" ></img></div>
+          <div className='logo-com'><img src={brand3} alt='brand' width="200px" height="70px" ></img></div>
+          <div className='logo-com'><img src={brand4} alt='brand' width="200px" height="70px" ></img></div>
+          <div className='logo-com'><img src={brand5} alt='brand' width="200px" height="70px" ></img></div>
 
           {/* <img src={brand1} alt='brand' width="200px" height="70px" ></img>
           <img src={brand2} alt='brand' width="200px" height="70px" ></img>

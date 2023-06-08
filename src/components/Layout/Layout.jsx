@@ -12,16 +12,18 @@ const LayoutStyled = styled.div`
   max-width:1920px;
   margin: auto;
 
-  @media (max-width:390px){
-    flex-direction:column;
-    max-width:150px;
-    width:100%;
-    margin: 0px 0px;
-  }
+ 
 `;
 const ContentStyled = styled.div`
 
-
+@media only screen and (max-width:768px){
+  
+  top:0;
+  left:0;
+  
+  width:100%;
+  
+}
   height: 100%;
 `;
 const SideBarStyled = styled.div`
@@ -32,7 +34,13 @@ background-color: #F0F0F0;
   width: 100%;
   height:89px;
   border-bottom: 2px solid #E3E3E3;
- 
+  @media only screen and (max-width:768px){
+   
+   
+    width:100%;
+    top:0;
+    
+  }
 `;
 
 const PrimaryLayout = () => {
